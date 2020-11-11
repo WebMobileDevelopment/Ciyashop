@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06E3B7431125A950664CF86B243333A8 /* Pods-CiyaShop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FEAFB98A6AC4B73D6C1D4F4051EB2B /* Pods-CiyaShop-dummy.m */; };
+		1068A68EFC171D70F1457BC3BDD97795 /* Pods-CiyaShop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 091AFD3DE7881824F997F48732AB35A7 /* Pods-CiyaShop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29ED5D71128B73ECC5E67940B0256D90 /* Pods-CiyaShopNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A21B07CAE6B02F684EE4CB00D06F23 /* Pods-CiyaShopNotification-dummy.m */; };
+		3F5A5FF59301684C91A223FADF038CF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4BF79ABD003F2FDC6E17BF47E54B1CED /* Pods-CiyaShopNotification-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1128E5D79B2BA3C24803126CBB783C5 /* Pods-CiyaShopNotification-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DA68547EC36ED871BA6A20C8009B695 /* ListLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD279A924F8A54891F050C0B02D3FE3 /* ListLoader.swift */; };
+		A906D37A9DE8C1897B608A0C29F5F6A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		CE226A73152557571E8AECD1CA842202 /* ListPlaceholder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F12E461C9777F0DA15F11F7A16D3603 /* ListPlaceholder-dummy.m */; };
+		D91418D43E5B5812964EC37E9F155CF1 /* ListPlaceholder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74DAA07D3160AF59D80A387B7F8BD3F2 /* ListPlaceholder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9CA9BD6115B5F5709404D4A2EC3FA1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		893554E63870ED666E40FF13F194D0E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 881D2AF3078426440580FAD64637BBE0;
+			remoteInfo = ListPlaceholder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		091AFD3DE7881824F997F48732AB35A7 /* Pods-CiyaShop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CiyaShop-umbrella.h"; sourceTree = "<group>"; };
+		0B38CCE2FC746C5ABF964090ADE9E848 /* Pods-CiyaShopNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CiyaShopNotification.debug.xcconfig"; sourceTree = "<group>"; };
+		0BD279A924F8A54891F050C0B02D3FE3 /* ListLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ListLoader.swift; path = ListPlaceholder/Classes/ListLoader.swift; sourceTree = "<group>"; };
+		1CB1948603F4BB0D9C91A8B8793BD6B2 /* Pods-CiyaShop-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CiyaShop-acknowledgements.plist"; sourceTree = "<group>"; };
+		2AB7A4429016148B3C8BE30EEFE6E8A0 /* ListPlaceholder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ListPlaceholder.modulemap; sourceTree = "<group>"; };
+		3C4AA6B771D082451D3443F8C3B3EE3B /* Pods_CiyaShop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CiyaShop.framework; path = "Pods-CiyaShop.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D9F3C8963492DF9D8C22D7704478402 /* ListPlaceholder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ListPlaceholder.framework; path = ListPlaceholder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E25F037A24D343433205F8E4CC5FE56 /* Pods-CiyaShop-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CiyaShop-Info.plist"; sourceTree = "<group>"; };
+		3E4CB1CAAF1F6260AA2D661362754A17 /* Pods-CiyaShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CiyaShop.release.xcconfig"; sourceTree = "<group>"; };
+		45C51A31850D70440C6DC5FC21A1E3C1 /* ListPlaceholder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ListPlaceholder-prefix.pch"; sourceTree = "<group>"; };
+		4C688B238457F8D2F1589EE0A1423FD2 /* ListPlaceholder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ListPlaceholder.release.xcconfig; sourceTree = "<group>"; };
+		58A526D610241A2C2976EB1D2926B662 /* Pods-CiyaShopNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CiyaShopNotification.release.xcconfig"; sourceTree = "<group>"; };
+		62FEAFB98A6AC4B73D6C1D4F4051EB2B /* Pods-CiyaShop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CiyaShop-dummy.m"; sourceTree = "<group>"; };
+		65C45BF7B4A020BAFCD0DB766AE5BE03 /* Pods-CiyaShop-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CiyaShop-frameworks.sh"; sourceTree = "<group>"; };
+		70CD5CDDA23EFFB2C0FDD4CF000D4E6F /* Pods_CiyaShopNotification.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CiyaShopNotification.framework; path = "Pods-CiyaShopNotification.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74DAA07D3160AF59D80A387B7F8BD3F2 /* ListPlaceholder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ListPlaceholder-umbrella.h"; sourceTree = "<group>"; };
+		896C8F2D76BC8E5CBDD225DFBF7489C1 /* ListPlaceholder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ListPlaceholder.debug.xcconfig; sourceTree = "<group>"; };
+		8F12E461C9777F0DA15F11F7A16D3603 /* ListPlaceholder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ListPlaceholder-dummy.m"; sourceTree = "<group>"; };
+		97B2104DD129DD32DC31E588F587264F /* Pods-CiyaShopNotification-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CiyaShopNotification-acknowledgements.markdown"; sourceTree = "<group>"; };
+		988F0B5BC54ADB2A74A1B103284780ED /* Pods-CiyaShop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CiyaShop.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A97934FE8BAA39D0E9D5F26285BB9710 /* Pods-CiyaShop-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CiyaShop-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B1128E5D79B2BA3C24803126CBB783C5 /* Pods-CiyaShopNotification-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CiyaShopNotification-umbrella.h"; sourceTree = "<group>"; };
+		BE971A7D4659F3C8763CCC9E7124D30F /* ListPlaceholder-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ListPlaceholder-Info.plist"; sourceTree = "<group>"; };
+		D8DBFDF1522960789786D66E69F32733 /* Pods-CiyaShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CiyaShop.debug.xcconfig"; sourceTree = "<group>"; };
+		E5A3A6892056CCC09B79B3592BAF53E5 /* Pods-CiyaShopNotification-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CiyaShopNotification-Info.plist"; sourceTree = "<group>"; };
+		E84B648CA0F9E390188DB0B0015A532F /* Pods-CiyaShopNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CiyaShopNotification.modulemap"; sourceTree = "<group>"; };
+		F3371E54DCA32F024930C9D45EBADBC4 /* Pods-CiyaShopNotification-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CiyaShopNotification-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3A21B07CAE6B02F684EE4CB00D06F23 /* Pods-CiyaShopNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CiyaShopNotification-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		93EE950CFDE1A5302F9C06B634764CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5A5FF59301684C91A223FADF038CF6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBA03BB941DEF907268E9A323D234AAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A906D37A9DE8C1897B608A0C29F5F6A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE738E0C441F197B2DF409216F3B2C8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9CA9BD6115B5F5709404D4A2EC3FA1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38DF735D1D1A9EEECABDDCFEA3BB3318 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				777EEA8AB2CA893EDC0035411698214A /* Pods-CiyaShop */,
+				C9471844E9B18C36CCF50B8932459A1D /* Pods-CiyaShopNotification */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		490A7E69CEB9C039AC66DB2CF9FDF585 /* ListPlaceholder */ = {
+			isa = PBXGroup;
+			children = (
+				0BD279A924F8A54891F050C0B02D3FE3 /* ListLoader.swift */,
+				CB0F922E1D2EF367D98B6616E6F96822 /* Support Files */,
+			);
+			name = ListPlaceholder;
+			path = ListPlaceholder;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		777EEA8AB2CA893EDC0035411698214A /* Pods-CiyaShop */ = {
+			isa = PBXGroup;
+			children = (
+				988F0B5BC54ADB2A74A1B103284780ED /* Pods-CiyaShop.modulemap */,
+				A97934FE8BAA39D0E9D5F26285BB9710 /* Pods-CiyaShop-acknowledgements.markdown */,
+				1CB1948603F4BB0D9C91A8B8793BD6B2 /* Pods-CiyaShop-acknowledgements.plist */,
+				62FEAFB98A6AC4B73D6C1D4F4051EB2B /* Pods-CiyaShop-dummy.m */,
+				65C45BF7B4A020BAFCD0DB766AE5BE03 /* Pods-CiyaShop-frameworks.sh */,
+				3E25F037A24D343433205F8E4CC5FE56 /* Pods-CiyaShop-Info.plist */,
+				091AFD3DE7881824F997F48732AB35A7 /* Pods-CiyaShop-umbrella.h */,
+				D8DBFDF1522960789786D66E69F32733 /* Pods-CiyaShop.debug.xcconfig */,
+				3E4CB1CAAF1F6260AA2D661362754A17 /* Pods-CiyaShop.release.xcconfig */,
+			);
+			name = "Pods-CiyaShop";
+			path = "Target Support Files/Pods-CiyaShop";
+			sourceTree = "<group>";
+		};
+		BDD2F2C3EED4D7D6B35AFBDA01B8ADD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D9F3C8963492DF9D8C22D7704478402 /* ListPlaceholder.framework */,
+				3C4AA6B771D082451D3443F8C3B3EE3B /* Pods_CiyaShop.framework */,
+				70CD5CDDA23EFFB2C0FDD4CF000D4E6F /* Pods_CiyaShopNotification.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9471844E9B18C36CCF50B8932459A1D /* Pods-CiyaShopNotification */ = {
+			isa = PBXGroup;
+			children = (
+				E84B648CA0F9E390188DB0B0015A532F /* Pods-CiyaShopNotification.modulemap */,
+				97B2104DD129DD32DC31E588F587264F /* Pods-CiyaShopNotification-acknowledgements.markdown */,
+				F3371E54DCA32F024930C9D45EBADBC4 /* Pods-CiyaShopNotification-acknowledgements.plist */,
+				F3A21B07CAE6B02F684EE4CB00D06F23 /* Pods-CiyaShopNotification-dummy.m */,
+				E5A3A6892056CCC09B79B3592BAF53E5 /* Pods-CiyaShopNotification-Info.plist */,
+				B1128E5D79B2BA3C24803126CBB783C5 /* Pods-CiyaShopNotification-umbrella.h */,
+				0B38CCE2FC746C5ABF964090ADE9E848 /* Pods-CiyaShopNotification.debug.xcconfig */,
+				58A526D610241A2C2976EB1D2926B662 /* Pods-CiyaShopNotification.release.xcconfig */,
+			);
+			name = "Pods-CiyaShopNotification";
+			path = "Target Support Files/Pods-CiyaShopNotification";
+			sourceTree = "<group>";
+		};
+		CB0F922E1D2EF367D98B6616E6F96822 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AB7A4429016148B3C8BE30EEFE6E8A0 /* ListPlaceholder.modulemap */,
+				8F12E461C9777F0DA15F11F7A16D3603 /* ListPlaceholder-dummy.m */,
+				BE971A7D4659F3C8763CCC9E7124D30F /* ListPlaceholder-Info.plist */,
+				45C51A31850D70440C6DC5FC21A1E3C1 /* ListPlaceholder-prefix.pch */,
+				74DAA07D3160AF59D80A387B7F8BD3F2 /* ListPlaceholder-umbrella.h */,
+				896C8F2D76BC8E5CBDD225DFBF7489C1 /* ListPlaceholder.debug.xcconfig */,
+				4C688B238457F8D2F1589EE0A1423FD2 /* ListPlaceholder.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ListPlaceholder";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E7AA101E05D434EE5DBCEB9FF7BD2A1C /* Pods */,
+				BDD2F2C3EED4D7D6B35AFBDA01B8ADD5 /* Products */,
+				38DF735D1D1A9EEECABDDCFEA3BB3318 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7AA101E05D434EE5DBCEB9FF7BD2A1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				490A7E69CEB9C039AC66DB2CF9FDF585 /* ListPlaceholder */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2790E51258C36427C4493081BB470A51 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91418D43E5B5812964EC37E9F155CF1 /* ListPlaceholder-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B14A72CCB270C357C7128B0D5CFD174 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF79ABD003F2FDC6E17BF47E54B1CED /* Pods-CiyaShopNotification-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DB01C38B1B682402CB56A7D47CF84BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1068A68EFC171D70F1457BC3BDD97795 /* Pods-CiyaShop-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		70D525801DBF16817E7A975BBA8E12C7 /* Pods-CiyaShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17DAF20D6E349D59E81366684B8D220A /* Build configuration list for PBXNativeTarget "Pods-CiyaShop" */;
+			buildPhases = (
+				5DB01C38B1B682402CB56A7D47CF84BE /* Headers */,
+				C880B8553249446ABA8B3F4EF89E4E92 /* Sources */,
+				93EE950CFDE1A5302F9C06B634764CE4 /* Frameworks */,
+				43C8295D8C8A40BEE0B8E5FBA9EAEB41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49E3253AD5CCFDE32ECAD3569E314BE7 /* PBXTargetDependency */,
+			);
+			name = "Pods-CiyaShop";
+			productName = "Pods-CiyaShop";
+			productReference = 3C4AA6B771D082451D3443F8C3B3EE3B /* Pods_CiyaShop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87EC89D08C01878C6E839374A8C410FA /* Pods-CiyaShopNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5054F6E5B313AEB60F8AC5910B526D96 /* Build configuration list for PBXNativeTarget "Pods-CiyaShopNotification" */;
+			buildPhases = (
+				4B14A72CCB270C357C7128B0D5CFD174 /* Headers */,
+				DC062A422E2B25CB760AD6392DC0FF0E /* Sources */,
+				BBA03BB941DEF907268E9A323D234AAA /* Frameworks */,
+				04648ED3BDC8EEAD9E0FB2C027F90642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CiyaShopNotification";
+			productName = "Pods-CiyaShopNotification";
+			productReference = 70CD5CDDA23EFFB2C0FDD4CF000D4E6F /* Pods_CiyaShopNotification.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		881D2AF3078426440580FAD64637BBE0 /* ListPlaceholder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5780D0971D9B9DF54D7F6C2FDD30D185 /* Build configuration list for PBXNativeTarget "ListPlaceholder" */;
+			buildPhases = (
+				2790E51258C36427C4493081BB470A51 /* Headers */,
+				2CD516CDD8813F88E8C377C3CDBB0974 /* Sources */,
+				FE738E0C441F197B2DF409216F3B2C8D /* Frameworks */,
+				F6BEB1F683728B48AAB1FC43895AB8C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ListPlaceholder;
+			productName = ListPlaceholder;
+			productReference = 3D9F3C8963492DF9D8C22D7704478402 /* ListPlaceholder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = BDD2F2C3EED4D7D6B35AFBDA01B8ADD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				881D2AF3078426440580FAD64637BBE0 /* ListPlaceholder */,
+				70D525801DBF16817E7A975BBA8E12C7 /* Pods-CiyaShop */,
+				87EC89D08C01878C6E839374A8C410FA /* Pods-CiyaShopNotification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04648ED3BDC8EEAD9E0FB2C027F90642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43C8295D8C8A40BEE0B8E5FBA9EAEB41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6BEB1F683728B48AAB1FC43895AB8C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CD516CDD8813F88E8C377C3CDBB0974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA68547EC36ED871BA6A20C8009B695 /* ListLoader.swift in Sources */,
+				CE226A73152557571E8AECD1CA842202 /* ListPlaceholder-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C880B8553249446ABA8B3F4EF89E4E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06E3B7431125A950664CF86B243333A8 /* Pods-CiyaShop-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC062A422E2B25CB760AD6392DC0FF0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29ED5D71128B73ECC5E67940B0256D90 /* Pods-CiyaShopNotification-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49E3253AD5CCFDE32ECAD3569E314BE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ListPlaceholder;
+			target = 881D2AF3078426440580FAD64637BBE0 /* ListPlaceholder */;
+			targetProxy = 893554E63870ED666E40FF13F194D0E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0CFB6A7FA66D8C750BF4758F19925665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A526D610241A2C2976EB1D2926B662 /* Pods-CiyaShopNotification.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CiyaShopNotification/Pods-CiyaShopNotification-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CiyaShopNotification/Pods-CiyaShopNotification.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0DDE9643325395521AF0B6560DC85B39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C688B238457F8D2F1589EE0A1423FD2 /* ListPlaceholder.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ListPlaceholder/ListPlaceholder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ListPlaceholder/ListPlaceholder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ListPlaceholder/ListPlaceholder.modulemap";
+				PRODUCT_MODULE_NAME = ListPlaceholder;
+				PRODUCT_NAME = ListPlaceholder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3BBDCE9FDED03F1DE3A5D493276341C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E4CB1CAAF1F6260AA2D661362754A17 /* Pods-CiyaShop.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CiyaShop/Pods-CiyaShop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CiyaShop/Pods-CiyaShop.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B7EA32136DF54E6123B5C63C292C424E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B38CCE2FC746C5ABF964090ADE9E848 /* Pods-CiyaShopNotification.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CiyaShopNotification/Pods-CiyaShopNotification-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CiyaShopNotification/Pods-CiyaShopNotification.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D8A0C171CEE03A829BBB1153CE7DA7AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 896C8F2D76BC8E5CBDD225DFBF7489C1 /* ListPlaceholder.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ListPlaceholder/ListPlaceholder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ListPlaceholder/ListPlaceholder-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ListPlaceholder/ListPlaceholder.modulemap";
+				PRODUCT_MODULE_NAME = ListPlaceholder;
+				PRODUCT_NAME = ListPlaceholder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E155A75C2360C2B97860E66C95EEC340 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8DBFDF1522960789786D66E69F32733 /* Pods-CiyaShop.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CiyaShop/Pods-CiyaShop-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CiyaShop/Pods-CiyaShop.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17DAF20D6E349D59E81366684B8D220A /* Build configuration list for PBXNativeTarget "Pods-CiyaShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E155A75C2360C2B97860E66C95EEC340 /* Debug */,
+				3BBDCE9FDED03F1DE3A5D493276341C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5054F6E5B313AEB60F8AC5910B526D96 /* Build configuration list for PBXNativeTarget "Pods-CiyaShopNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7EA32136DF54E6123B5C63C292C424E /* Debug */,
+				0CFB6A7FA66D8C750BF4758F19925665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5780D0971D9B9DF54D7F6C2FDD30D185 /* Build configuration list for PBXNativeTarget "ListPlaceholder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8A0C171CEE03A829BBB1153CE7DA7AC /* Debug */,
+				0DDE9643325395521AF0B6560DC85B39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

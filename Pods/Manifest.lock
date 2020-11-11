@@ -1,0 +1,16 @@
+PODS:
+  - ListPlaceholder (1.4)
+
+DEPENDENCIES:
+  - ListPlaceholder
+
+SPEC REPOS:
+  trunk:
+    - ListPlaceholder
+
+SPEC CHECKSUMS:
+  ListPlaceholder: 08ddaddf67520a20fc52cf37160fb56aa64d071d
+
+PODFILE CHECKSUM: a6bbfb2824a28c1bb6dcd3d9fdfb181ddd2957e3
+
+COCOAPODS: 1.10.0
